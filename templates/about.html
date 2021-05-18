@@ -1,0 +1,55 @@
+{% extends 'index.html' %}
+{% block title %}DataBase{% endblock %}
+{% block content %}
+
+    <div class="container-fluid" style="margin-top: 1rem;margin-bottom: 5rem;">
+        <div class="row">
+            <div class="col-md-6" style="margin: 0 auto;">
+                <!-- Card -->
+                <div class="card" style="margin-bottom: 1rem;">
+    
+                    <!-- Card image -->
+                    <div class="view overlay">
+                        <img class="img-fluid"
+                            src="/static/s.jpg"
+                            alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+    
+                    <!-- Card content -->
+                    <div class="card-body">
+    
+                        <!-- Title -->
+                        <h4 class="card-title" style="text-align: center;margin: 0 auto;">About</h4>
+                        <!-- Text -->
+                        <p class="card-text" style="text-align:center"></br>
+                        </br>
+                        An intrusion detection system (IDS) is a device, or software application that monitors a network or systems for malicious activity or policy violations. Any intrusion activity or violation is typically reported either to an administrator or collected centrally using a security information and event management (SIEM) system. A SIEM system combines outputs 
+                        from multiple sources and uses alarm filtering techniques to distinguish malicious activity from false alarms
+                        </br> 
+                        The majority of intrusion prevention systems utilize one of three detection methods: signature-based, statistical anomaly-based, and stateful protocol analysis.
+
+                        Signature-based detection: Signature-based IDS monitors packets in the Network and compares with pre-configured and pre-determined attack patterns known as signatures.
+                        Statistical anomaly-based detection: An IDS which is anomaly-based will monitor network traffic and compare it against an established baseline. The baseline will identify what is "normal" for that network – what sort of bandwidth is generally used and what protocols are used. It may however, raise a False Positive alarm for legitimate use of bandwidth if the baselines are not intelligently configured.
+                        Stateful protocol analysis detection: This method identifies deviations of protocol states by comparing observed events with "pre-determined profiles of generally accepted definitions of benign activity"
+                        </br>    
+                            Blocking malicious URLs:
+                        </br>
+                            There are several engines and ways to block malicious URLs. In the case of email networks, for example, you can get a Secure Email Gateway. In the case of browsers, you can install protection plugins.
+                            The most effective and common protection techniques are based on filters that use URL blacklists, comparing domains and hosts. Other techniques involve machine learning, URL rewriting, Sandboxing and real-time click detection.</br></br></p>
+                        <!-- Button -->
+    
+                    </div>
+    
+                </div>
+                <!-- Card -->
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 1rem;">
+            <a href="/" class="btn btn-primary" style="margin: 0 auto;display: block;">Home</a>
+        </div>
+    </div>
+
+{% endblock %}    
